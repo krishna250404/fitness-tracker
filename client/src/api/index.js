@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "",
+  baseURL: "https://fitness-tracker-gbix.onrender.com",
 });
 
 export const UserSignUp = async (data) => API.post("/user/signup", data);
